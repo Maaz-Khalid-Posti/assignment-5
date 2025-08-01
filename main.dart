@@ -1,90 +1,90 @@
 // import 'dart:isolate';
 
 void main() {
-  // List<String> name = ["Maaz", "Soban", "Bilal"];
-  // print(name);
+  List<String> name = ["Maaz", "Soban", "Bilal"];
+  print(name);
 
-  // // add value add karta h
-  // name.add("Arsalan");
-  // print(name);
+  // add value add karta h
+  name.add("Arsalan");
+  print(name);
 
-  // // addAll 1 se ziyada item add karta h
-  // name.addAll(["Abdul", "Mavia"]);
-  // print(name);
+  // addAll 1 se ziyada item add karta h
+  name.addAll(["Abdul", "Mavia"]);
+  print(name);
 
-  // // insert specific item per index ko insert karta h
-  // name.insert(1, "Sudais");
-  // print(name);
+  // insert specific item per index ko insert karta h
+  name.insert(1, "Sudais");
+  print(name);
 
-  // // insertAll multiple item insert karta h index pe
-  // name.insertAll(0, ["Moiz", "Arsalan"]);
-  // print(name);
+  // insertAll multiple item insert karta h index pe
+  name.insertAll(0, ["Moiz", "Arsalan"]);
+  print(name);
 
-  // // remove list se item ko remove karta h
-  // name.remove("Moiz");
-  // print(name);
+  // remove list se item ko remove karta h
+  name.remove("Moiz");
+  print(name);
 
-  // // removeAt index se item ko remove karta h
-  // name.removeAt(2);
-  // print(name);
+  // removeAt index se item ko remove karta h
+  name.removeAt(2);
+  print(name);
 
-  // // removeLast last item ko remove karta h
-  // print(name.removeLast());
+  // removeLast last item ko remove karta h
+  print(name.removeLast());
 
-  // //
+  //
 
-  // // contains check karta h k item list me h ya nhi
-  // print(name.contains("Soban"));
+  // contains check karta h k item list me h ya nhi
+  print(name.contains("Soban"));
 
-  // // indexOf pehli bar item kha aya us ka index deta h
-  // print(name.indexOf("Maaz"));
+  // indexOf pehli bar item kha aya us ka index deta h
+  print(name.indexOf("Maaz"));
 
-  // // lastIndexOf last item kha aya us ka index deta h
-  // print(name.lastIndexOf("Arsalan"));
+  // lastIndexOf last item kha aya us ka index deta h
+  print(name.lastIndexOf("Arsalan"));
 
-  // // sort list ko ascedinf order me sort karta h
-  // name.sort();
-  // print(name);
+  // sort list ko ascedinf order me sort karta h
+  name.sort();
+  print(name);
 
-  // // reversed list ko reversed karta h
-  // print(name.reversed);
-  // print(name);
+  // reversed list ko reversed karta h
+  print(name.reversed);
+  print(name);
 
-  // // subList List ka ek hissa deta hai (range ke andar)
-  // print(name.sublist(2, 5));
+  // subList List ka ek hissa deta hai (range ke andar)
+  print(name.sublist(2, 5));
 
-  // // join 	List ko string me convert karta hai
-  // print(name.join(" "));
+  // join 	List ko string me convert karta hai
+  print(name.join(" "));
 
-  // // elementAt 	Specific index pe jo item hai wo deta hai
-  // print(name.elementAt(2));
+  // elementAt 	Specific index pe jo item hai wo deta hai
+  print(name.elementAt(2));
 
-  // // isEmpty list khali h tu true deta h
-  // print(name.isEmpty);
+  // isEmpty list khali h tu true deta h
+  print(name.isEmpty);
 
-  // // isNotEmpty list me data h tu true deta h
-  // print(name.isNotEmpty);
+  // isNotEmpty list me data h tu true deta h
+  print(name.isNotEmpty);
 
-  // // length lis ki length deta h
-  // print(name.length);
+  // length lis ki length deta h
+  print(name.length);
 
-  // // first list ka first item deta h
-  // print(name.first);
+  // first list ka first item deta h
+  print(name.first);
 
-  // // last list ka last item deta h
-  // print(name.last);
+  // last list ka last item deta h
+  print(name.last);
 
-  // // removeRange index se value ke hata deta h
-  // name.removeRange(1, 4);
-  // print(name);
-  // print(name);
+  // removeRange index se value ke hata deta h
+  name.removeRange(1, 4);
+  print(name);
+  print(name);
 
-  // //replaceRange 	1 to 2 tak values ko replace karta hai new values se
-  // name.replaceRange(1, 2, ["Apple", "Mango", "Banana"]);
-  // print(name);
+  //replaceRange 	1 to 2 tak values ko replace karta hai new values se
+  name.replaceRange(1, 2, ["Apple", "Mango", "Banana"]);
+  print(name);
 
-  // name.setAll(0, ["WaterMelon"]);
-  // print(name);
+  name.setAll(0, ["WaterMelon"]);
+  print(name);
 
   Map<String, dynamic> stdData = {
     "Name": "Maaz",
@@ -124,8 +124,8 @@ void main() {
   print(stdData);
 
   // Answer 1
-  List<String> name = ["Maaz", "Ali", "Soban", "Abdul"];
-  name.forEach((name) => (print(name)));
+  List<String> newNames = ["Maaz", "Ali", "Soban", "Abdul"];
+  name.forEach((newNames) => (print(newNames)));
 
   // Answer 2
   List<String> days = [];
