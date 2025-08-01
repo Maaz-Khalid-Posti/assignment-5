@@ -124,8 +124,8 @@ void main() {
   print(stdData);
 
   // Answer 1
-  List<String> newNames = ["Maaz", "Ali", "Soban", "Abdul"];
-  name.forEach((newNames) => (print(newNames)));
+  List<String> names = ["Maaz", "Ali", "Soban", "Abdul"];
+  names.forEach((name) => (print(name)));
 
   // Answer 2
   List<String> days = [];
